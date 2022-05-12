@@ -83,8 +83,112 @@
             <ListView ItemsSource="{Binding Contatos}"
                       Background="Transparent"
                       BorderThickness="0"
-                      Grid.Row="1"/>
+                      Grid.Row="1"
+                      ItemContainerStyle="{StaticResource CardContatos}"/>
+
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        Background="#056FF0">
+
+                <Border CornerRadius="25"
+                        Width="30" Height="30"
+                        Background="#6FFF5E"
+                        Margin="18,0,0,0"/>
+
+                <StackPanel VerticalAlignment="Center">
+                    <Label Content="Username"
+                           Foreground="White"
+                           FontWeight="SemiBold"
+                           Margin="0,-5,0,-5"/>
+
+                    <Label Content="Status"
+                           Foreground="LightGray"
+                           FontWeight="SemiBold"
+                           FontSize="10"
+                           Margin="0,-8,0,-5"/>
+                </StackPanel>
+
+            </StackPanel>
 
         </Grid>
+
+        <Grid Grid.Column="1"
+              Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+
+            <Border BorderBrush="Black"
+                    BorderThickness="0,0,0,2">
+                <Grid HorizontalAlignment="Stretch"
+                      Margin="8">
+
+                    <Label Content="@UserName"
+                           Foreground="White"
+                           FontWeight="Bold"
+                            Margin="5,0,5,0"
+                           VerticalAlignment="Center"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right">
+                        <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="/telefonema.png"/>
+
+                        <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="/camera.png"/>
+
+                    </StackPanel>
+
+                </Grid>
+            </Border>
+
+            <ListView ItemsSource="{Binding SelecionarContato.Mensagens}"
+                      Background="Transparent"
+                      BorderThickness="0"
+                      ItemContainerStyle="{StaticResource ItensChat}"
+                      Margin="8,0,0,0"
+                      Grid.Row="1"/>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Grid.Row="1"
+                         Height="50"
+                         Text="Mensagem @Username"
+                         Style="{StaticResource CaixaMensagem}"
+                         Grid.ColumnSpan="2"/>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Grid.Column="1"
+                            Margin="0,0,16,0">
+
+                    <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="/mais.png"/>
+                    
+                    <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="/send.png"/>
+
+
+                </StackPanel>
+            </Grid>
+            
+
+        </Grid>
+        
     </Grid>
 </Window>
