@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj": {}
+    "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\APS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj": {
+    "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\APS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj",
+        "projectUniqueName": "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\APS.csproj",
         "projectName": "APS",
-        "projectPath": "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj",
-        "packagesPath": "C:\\Users\\luanz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\obj\\",
+        "projectPath": "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\APS.csproj",
+        "packagesPath": "C:\\Users\\Davi Godoi\\.nuget\\packages\\",
+        "outputPath": "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luanz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Davi Godoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -7,4 +7,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Icons\" />
+    <Folder Include="Core\" />
+    <Folder Include="visual\Model\" />
+    <Folder Include="visual\View\" />
+  </ItemGroup>
+
 </Project>

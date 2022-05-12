@@ -3,10 +3,88 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:APS"
+        xmlns:local="clr-namespace:APS" xmlns:viewmodel="clr-namespace:APS.MWM.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Height="650" Width="1200"
+        Background="#36393F"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="CanResizeWithGrip">
 
+    <Window.DataContext>
+        <viewmodel:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.ColumnSpan="2"
+                Background="#6FFF5E"
+                MouseDown="Border_MouseDown">
+            
+            
+            <Grid HorizontalAlignment="Stretch">
+                <Label Content="EcoSistem"
+                       FontWeight="SemiBold"/>
+
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+
+                    <Button Width="20" Height="20"
+                            Content="_"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Margin="0,0,0,3"
+                            Click="ButtonMinimize_Click"/>
+                    
+                    <Button Width="20" Height="20"
+                            Content="▢"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Click="WindowStateButton_Click"/>
+                    
+                    <Button Width="20" Height="20"
+                            Content="╳"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Margin="0,0,0,3"
+                            Click="CloseButton_Click"/>
+
+                </StackPanel>
+
+            </Grid>
+            
+        </Border>
+
+        <Grid Background="#10E3A5"
+              Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Label Content="Contatos"
+                   VerticalAlignment="Center"
+                   FontWeight="Medium"
+                   Margin="8,0,0,0"/>
+
+            <ListView ItemsSource="{Binding Contatos}"
+                      Background="Transparent"
+                      BorderThickness="0"
+                      Grid.Row="1"/>
+
+        </Grid>
     </Grid>
 </Window>
