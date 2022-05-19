@@ -20,3 +20,34 @@ C:\Davi\aps5semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.pdb
 C:\Davi\aps5semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.genruntimeconfig.cache
 C:\Davi\aps5semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\ref\APS.dll
 C:\Davi\aps5semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\APS.exe
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\APS.deps.json
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\APS.runtimeconfig.json
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\APS.dll
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\APS.pdb
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.csproj.AssemblyReference.cache
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\Themes\CardContatos.baml
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\App.g.cs
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS_MarkupCompile.cache
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS_MarkupCompile.lref
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\App.baml
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\MainWindow.baml
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.g.resources
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.GeneratedMSBuildEditorConfig.editorconfig
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.AssemblyInfoInputs.cache
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.AssemblyInfo.cs
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.csproj.CoreCompileInputs.cache
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.dll
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\refint\APS.dll
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.pdb
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS.genruntimeconfig.cache
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\ref\APS.dll
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\Icons\camera.png
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\Icons\mais.png
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\Icons\send.png
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\bin\Debug\net6.0-windows\Icons\telefonema.png
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\Themes\CaixaMensagem.baml
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\Themes\ItensChat.baml
+E:\Davi\UNIP\5º semestre\APS-5-Semestre\APS\obj\Debug\net6.0-windows\APS_Content.g.cs

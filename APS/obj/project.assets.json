@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Davi Godoi\\.nuget\\packages\\": {}
+    "C:\\Users\\davig\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\APS.csproj",
+      "projectUniqueName": "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\APS.csproj",
       "projectName": "APS",
-      "projectPath": "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\APS.csproj",
-      "packagesPath": "C:\\Users\\Davi Godoi\\.nuget\\packages\\",
-      "outputPath": "C:\\Davi\\aps5semestre\\APS-5-Semestre\\APS\\obj\\",
+      "projectPath": "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\APS.csproj",
+      "packagesPath": "C:\\Users\\davig\\.nuget\\packages\\",
+      "outputPath": "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Davi Godoi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\davig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

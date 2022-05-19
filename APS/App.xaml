@@ -4,6 +4,12 @@
              xmlns:local="clr-namespace:APS"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="./Themes/CardContatos.xaml"/>
+                <ResourceDictionary Source="./Themes/ItensChat.xaml"/>
+                <ResourceDictionary Source="./Themes/CaixaMensagem.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
