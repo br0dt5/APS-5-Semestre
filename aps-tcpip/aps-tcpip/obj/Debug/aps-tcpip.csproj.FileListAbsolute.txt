@@ -1,0 +1,11 @@
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\bin\Debug\aps-tcpip.exe.config
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\bin\Debug\aps-tcpip.exe
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\bin\Debug\aps-tcpip.pdb
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps-tcpip.csproj.AssemblyReference.cache
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps-tcpip.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps_tcpip.Form1.resources
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps_tcpip.Properties.Resources.resources
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps-tcpip.csproj.GenerateResource.cache
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps-tcpip.csproj.CoreCompileInputs.cache
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps-tcpip.exe
+C:\Users\Vanessa\source\repos\aps-tcpip\aps-tcpip\obj\Debug\aps-tcpip.pdb
