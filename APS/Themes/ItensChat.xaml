@@ -11,28 +11,26 @@
                                     Background="CadetBlue"
                                     CornerRadius="25"/>
 
-
                         <StackPanel>
                             <StackPanel Orientation="Horizontal">
-
                                 <Label Content="{Binding UserName}"
-                                   Foreground="{Binding UserNameColor}"
-                                   FontWeight="SemiBold"
-                                   VerticalAlignment="Center"
-                                   Margin="0,0,-5,0"/>
+                                       Foreground="{Binding UserNameColor}"
+                                       FontWeight="SemiBold"
+                                       VerticalAlignment="Center"
+                                       Margin="0,0,-5,0"/>
 
                                 <Label Content="{Binding Time}"
-                                   Foreground="DarkGray"
-                                   FontWeight="SemiBold"
-                                   FontSize="8"
-                                   VerticalAlignment="Center"/>
-
+                                       Foreground="#44474D"
+                                       FontWeight="SemiBold"
+                                       FontSize="8"
+                                       VerticalAlignment="Center"/>
                             </StackPanel>
-
+                            
                             <Label Content="{Binding Message}"
                                    Foreground="White"
                                    FontWeight="SemiBold"
                                    VerticalAlignment="Center"/>
+                            
                         </StackPanel>
                         
                     </StackPanel>

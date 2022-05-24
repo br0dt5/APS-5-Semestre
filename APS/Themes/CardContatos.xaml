@@ -5,10 +5,7 @@
 
         <Style.Triggers>
             <Trigger Property="IsSelected" Value="True">
-                <Setter Property="Background" Value="#292b2f">
-
-                </Setter>
-
+                <Setter Property="Background" Value="#292b2f"/>
             </Trigger>
         </Style.Triggers>
 
@@ -30,23 +27,15 @@
                                     CornerRadius="25"/>
 
                             <StackPanel>
-                                <Label Content="{Binding UserName}"
+                                <Label Content="{Binding Username}"
                                        Foreground="White"/>
-                                <Label Content="{Binding LastMessage}"
-                                       Foreground="DarkGray"
-                                       FontSize="10"/>
-
                             </StackPanel>
 
                         </StackPanel>
-                        
+
                     </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        
-        
-
     </Style>
-    
 </ResourceDictionary>

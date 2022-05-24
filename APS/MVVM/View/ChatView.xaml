@@ -1,0 +1,194 @@
+﻿<Window x:Class="Chat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chat" xmlns:viewmodel="clr-namespace:Chat.MVVM.ViewModel"
+        mc:Ignorable="d"
+        Height="650" Width="1200"
+        Background="#36393F"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        ResizeMode="CanResizeWithGrip">
+
+    <Window.DataContext>
+        <viewmodel:ChatViewModel/>
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.ColumnSpan="2"
+                Background="#6FFF5E"
+                MouseDown="Border_MouseDown">
+            
+            
+            <Grid HorizontalAlignment="Stretch">
+                <Label Content="EcoSistem"
+                       FontWeight="SemiBold"/>
+
+                <StackPanel HorizontalAlignment="Right"
+                            Orientation="Horizontal">
+
+                    <Button Width="20" Height="20"
+                            Content="_"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Margin="0,0,0,3"
+                            Click="ButtonMinimize_Click"/>
+                    
+                    <Button Width="20" Height="20"
+                            Content="▢"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Click="WindowStateButton_Click"/>
+                    
+                    <Button Width="20" Height="20"
+                            Content="╳"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Margin="0,0,0,3"
+                            Click="CloseButton_Click"/>
+
+                </StackPanel>
+
+            </Grid>
+            
+        </Border>
+
+        <Grid Background="#10E3A5"
+              Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Label Content="Usuários Conectados"
+                   VerticalAlignment="Center"
+                   FontWeight="Medium"
+                   Margin="8,0,0,0"/>
+
+            <ListView ItemsSource="{Binding Users}"
+                      Background="Transparent"
+                      BorderThickness="0"
+                      Grid.Row="1"
+                      ItemContainerStyle="{StaticResource CardContatos}"/>
+
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        Background="#056FF0">
+
+                <Border CornerRadius="25"
+                        Width="30" Height="30"
+                        Background="#6FFF5E"
+                        Margin="18,0,0,0"/>
+
+                <StackPanel VerticalAlignment="Center">
+                    <Label Content="{Binding User.Username}"
+                           Foreground="White"
+                           FontWeight="SemiBold"
+                           Margin="0,-5,0,-5"/>
+
+                    <Label Content="Status"
+                           Foreground="LightGray"
+                           FontWeight="SemiBold"
+                           FontSize="10"
+                           Margin="0,-8,0,-5"/>
+                </StackPanel>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Column="1"
+              Grid.Row="1">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+                <RowDefinition Height="70"/>
+            </Grid.RowDefinitions>
+
+            <Border BorderBrush="Black"
+                    BorderThickness="0,0,0,2">
+                <Grid HorizontalAlignment="Stretch"
+                      Margin="8">
+
+                    <Label Content="@UserName"
+                           Foreground="White"
+                           FontWeight="Bold"
+                            Margin="5,0,5,0"
+                           VerticalAlignment="Center"/>
+
+                    <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right">
+                        <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="../../Icons/telefonema.png"/>
+
+                        <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="../../Icons/camera.png"/>
+
+                    </StackPanel>
+
+                </Grid>
+            </Border>
+
+            <ListView ItemsSource="{Binding Mensagens}"
+                      Background="Transparent"
+                      BorderThickness="0"
+                      ItemContainerStyle="{StaticResource ItensChat}"
+                      Margin="8,0,0,0"
+                      Grid.Row="1"/>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="90"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox Grid.Row="1"
+                         Height="50"
+                         Text="Mensagem @Username"
+                         Style="{StaticResource CaixaMensagem}"
+                         Grid.ColumnSpan="2"/>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            Grid.Column="1"
+                            Margin="0,0,16,0">
+
+                    <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="../../Icons/mais.png"/>
+                    
+                    <Image Width="20" Height="20"
+                               RenderOptions.BitmapScalingMode="Fant"
+                               Margin="5,0,5,0"
+                               Source="../../Icons/send.png"/>
+
+
+                </StackPanel>
+            </Grid>
+            
+
+        </Grid>
+        
+    </Grid>
+</Window>

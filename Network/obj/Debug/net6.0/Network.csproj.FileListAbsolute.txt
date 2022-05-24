@@ -1,0 +1,15 @@
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\bin\Debug\net6.0\Network.exe
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\bin\Debug\net6.0\Network.deps.json
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\bin\Debug\net6.0\Network.runtimeconfig.json
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\bin\Debug\net6.0\Network.dll
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\bin\Debug\net6.0\Network.pdb
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.csproj.AssemblyReference.cache
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.AssemblyInfoInputs.cache
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.AssemblyInfo.cs
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.csproj.CoreCompileInputs.cache
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.dll
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\refint\Network.dll
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.pdb
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\Network.genruntimeconfig.cache
+C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\Network\obj\Debug\net6.0\ref\Network.dll

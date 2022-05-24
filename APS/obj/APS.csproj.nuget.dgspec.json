@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\APS.csproj": {}
+    "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj": {}
   },
   "projects": {
-    "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\APS.csproj": {
+    "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\APS.csproj",
+        "projectUniqueName": "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj",
         "projectName": "APS",
-        "projectPath": "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\APS.csproj",
-        "packagesPath": "C:\\Users\\davig\\.nuget\\packages\\",
-        "outputPath": "E:\\Davi\\UNIP\\5º semestre\\APS-5-Semestre\\APS\\obj\\",
+        "projectPath": "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\APS.csproj",
+        "packagesPath": "C:\\Users\\luanz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luanz\\OneDrive\\Documentos\\Faculdade\\APS\\5° Semestre\\Aplicação\\APS\\APS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\davig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\luanz\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

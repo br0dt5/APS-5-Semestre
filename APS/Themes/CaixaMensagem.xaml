@@ -1,9 +1,6 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
-    
-    
-    
     <Style TargetType="TextBox" x:Key="CaixaMensagem">
 
         <Setter Property="Foreground" Value="Gray"/>
@@ -30,7 +27,7 @@
                                      Text="{Binding Message, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
 
                                 <TextBox.InputBindings>
-                                    <KeyBinding Command="{Binding SendCommand}" Key="Return"/>
+                                    <KeyBinding Command="{Binding SendMessageCommand}" Key="Return"/>
                                 </TextBox.InputBindings>
                                 
                             </TextBox>
