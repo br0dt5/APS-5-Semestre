@@ -27,7 +27,7 @@
         </Grid.ColumnDefinitions>
 
         <Border Grid.ColumnSpan="2"
-                Background="#6FFF5E"
+                Background="DarkCyan"
                 MouseDown="Border_MouseDown">
             
             
@@ -84,7 +84,7 @@
                       Background="Transparent"
                       BorderThickness="0"
                       Grid.Row="1"
-                      ItemContainerStyle="{StaticResource CardContatos}"/>
+                      ItemContainerStyle="{StaticResource CardUsuario}"/>
 
             <StackPanel Grid.Row="2"
                         Orientation="Horizontal"
@@ -95,18 +95,13 @@
                         Background="#6FFF5E"
                         Margin="18,0,0,0"/>
 
-                <StackPanel VerticalAlignment="Center">
-                    <Label Content="{Binding User.Username}"
-                           Foreground="White"
-                           FontWeight="SemiBold"
-                           Margin="0,-5,0,-5"/>
-
-                    <Label Content="Status"
-                           Foreground="LightGray"
-                           FontWeight="SemiBold"
-                           FontSize="10"
-                           Margin="0,-8,0,-5"/>
-                </StackPanel>
+                <!--<StackPanel VerticalAlignment="Center">-->
+                <Label Content="{Binding User.Username}"
+                       VerticalAlignment="Center"
+                       Foreground="White"
+                       FontWeight="SemiBold"
+                       Margin="2, -5, 0, -5"/>
+                <!--</StackPanel>-->
 
             </StackPanel>
 
@@ -126,7 +121,7 @@
                 <Grid HorizontalAlignment="Stretch"
                       Margin="8">
 
-                    <Label Content="@UserName"
+                    <Label Content="Lista de Mensagens"
                            Foreground="White"
                            FontWeight="Bold"
                             Margin="5,0,5,0"

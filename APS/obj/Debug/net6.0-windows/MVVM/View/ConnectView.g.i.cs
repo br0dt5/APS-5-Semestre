@@ -54,7 +54,7 @@ namespace Chat.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Chat;component/mvvm/view/connectview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Chat;V1.0.0.0;component/mvvm/view/connectview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\ConnectView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

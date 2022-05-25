@@ -11,12 +11,12 @@ namespace Chat.MVVM.ViewModel
     class ChatViewModel : ObservableObject
     {
         public ObservableCollection<UserModel> Users { get; set; }
-        public ObservableCollection<ModeloMensagem> Mensagens { get; set; }
+        public ObservableCollection<MessageModel> Mensagens { get; set; }
 
         private Server _server;
         public UserModel User { get; set; } = new UserModel()
         {
-            Username = ConnectViewModel.Username,
+            Username = LoginViewModel.Username,
             UID = Guid.NewGuid().ToString()
         };
         private string _message;
@@ -31,13 +31,13 @@ namespace Chat.MVVM.ViewModel
             }
         }
 
-        public RelayCommand ConnectToServerCommand { get; set; }
+        //public RelayCommand ConnectToServerCommand { get; set; }
         public RelayCommand SendMessageCommand { get; set; }
 
         public ChatViewModel()
         {
             Users = new ObservableCollection<UserModel>();
-            Mensagens = new ObservableCollection<ModeloMensagem>();
+            Mensagens = new ObservableCollection<MessageModel>();
 
             _server = new Server();
             _server.connectedEvent += UserConnected;
@@ -72,14 +72,13 @@ namespace Chat.MVVM.ViewModel
             var uid = _server.PacketReader.ReadMessage();
             var msg = _server.PacketReader.ReadMessage();
             var user = Users.Where(x => x.UID.ToString() == uid).FirstOrDefault();
-            Application.Current.Dispatcher.Invoke(() => Mensagens.Add(new ModeloMensagem
+            Application.Current.Dispatcher.Invoke(() => Mensagens.Add(new MessageModel
             {
                 UserName = user.Username,
                 UserNameColor = "#409AFF",
                 ImageSource = "https://imgur.com/gallery/EFeEbuJ",
                 Message = msg,
-                Time = DateTime.Now,
-                IsNativeorigin = true
+                Time = DateTime.Now
             }));
         }
 
@@ -90,7 +89,7 @@ namespace Chat.MVVM.ViewModel
             Application.Current.Dispatcher.Invoke(() =>
             {
                 Users.Remove(user);
-                Mensagens.Add(new ModeloMensagem
+                Mensagens.Add(new MessageModel
                 {
                     Message = $"[{user.Username}] Disconnected!",
                     Time = DateTime.Now

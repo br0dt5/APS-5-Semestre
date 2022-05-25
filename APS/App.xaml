@@ -2,13 +2,13 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Chat"
-             StartupUri="MVVM/View/ConnectView.xaml">
+             StartupUri="MVVM/View/LoginView.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="./Themes/CardContatos.xaml"/>
-                <ResourceDictionary Source="./Themes/ItensChat.xaml"/>
-                <ResourceDictionary Source="./Themes/CaixaMensagem.xaml"/>
+                <ResourceDictionary Source="./Themes/UserCard.xaml"/>
+                <ResourceDictionary Source="./Themes/ChatItem.xaml"/>
+                <ResourceDictionary Source="./Themes/MessageBox.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

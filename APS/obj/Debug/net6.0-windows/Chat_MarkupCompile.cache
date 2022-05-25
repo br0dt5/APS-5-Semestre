@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\luanz\OneDrive\Documentos\Faculdade\APS\5° Semestre\Aplicação\APS\APS\App.xaml
-5-1209433353
+5-1174975420
 4250540845
-13-1204388001
+13-807941563
 1942030480316
-MVVM\View\ChatView.xaml;MVVM\View\ConnectView.xaml;Themes\CaixaMensagem.xaml;Themes\CardContatos.xaml;Themes\ItensChat.xaml;
+MVVM\View\ChatView.xaml;MVVM\View\LoginView.xaml;Themes\ChatItem.xaml;Themes\MessageBox.xaml;Themes\UserCard.xaml;
 
 False
 

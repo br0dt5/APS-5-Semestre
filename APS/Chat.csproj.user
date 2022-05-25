@@ -7,24 +7,24 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MVVM\View\ConnectView.xaml.cs">
+    <Compile Update="MVVM\View\LoginView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MVVM\View\ConnectView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MVVM\View\ChatView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Themes\CaixaMensagem.xaml">
+    <Page Update="MVVM\View\LoginView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Themes\CardContatos.xaml">
+    <Page Update="Themes\MessageBox.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Themes\ItensChat.xaml">
+    <Page Update="Themes\UserCard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\ChatItem.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
